@@ -13,7 +13,7 @@ public class BrowserFactory {
                 System.setProperty("webdriver.chrome.driver", "/home/maryna/drivers/chromedriverNowy");
                 return new ChromeDriver();
             case FIREFOX:
-                System.setProperty("webrdiver.gecko.driver", "");
+                System.setProperty("webdriver.gecko.driver", "/home/maryna/drivers/geckodriver");
                 return new FirefoxDriver();
             case IE:
                 System.setProperty("webdriver.ie.driver", "");
