@@ -2,26 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223098b3-157c-485d-b773-1192ac5d73b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/bin/allure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/bin/allure.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/config/allure-cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/config/allure-junit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/config/allure.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/allure-commandline-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/allure-generator-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/allure-plugin-api-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/allure1-model-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/allure2-model-api-1.0-BETA4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/allure2-model-jackson-1.0-BETA4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/allure2-model-pojo-1.0-BETA4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/commons-lang3-3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/commons-text-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/config/jetty-logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/config/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/flexmark-0.28.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/flexmark-util-0.28.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/freemarker-2.3.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/httpclient-4.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/httpcore-4.4.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jackson-core-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jackson-databind-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jackson-dataformat-xml-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jackson-dataformat-yaml-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jackson-module-jaxb-annotations-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jaxb-utils-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jcommander-1.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jetty-http-9.4.8.v20171121.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jetty-io-9.4.8.v20171121.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jetty-server-9.4.8.v20171121.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/jetty-util-9.4.8.v20171121.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/opencsv-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/properties-2.0.RC5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/snakeyaml-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/tika-core-1.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/lib/woodstox-core-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/behaviors-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/junit-xml-plugin/junit-xml-plugin-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/packages-plugin/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/packages-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/trx-plugin/trx-plugin-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/xctest-plugin/xctest-plugin-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.6.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configuration/AppProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configuration/ConfigurationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configuration/LocalWebDriverProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configuration/PropertiesLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/navigation/ApplicationURLs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/AngelfishListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/objects/FishListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SeleniumGridExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/driver/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/manager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/AngelfishListPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/FishListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/AngelfishListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/FishListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/ShoppingCartSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/ShoppingCartSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/FooterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/FooterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/TopMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ShoppingCartTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/seleniumintro1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/BrowserFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/driver/BrowserFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/driver/BrowserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/BrowserType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/driver/BrowserType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/manager/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/manager/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/manager/DriverUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/manager/DriverUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/AngelfishListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/FishListPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/ShoppingCartSummaryPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/FooterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/objects/FooterPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/objects/LandingPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/objects/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/ShoppingCartSummaryPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/page/objects/TopMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/objects/TopMenuPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FailedLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/FailedLoginTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/PositiveLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/PositiveLoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ShoppingCartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ShoppingCartTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ShoppingCartTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waits/WaitForElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/waits/WaitForElement.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="seleniumintro1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,14 +152,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1QY5gGw8SAQUhfhWvbWRee0qAto" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lm_automaticTests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,23 +181,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PositiveLoginTests">
-    <configuration name="FailedLoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SeleniumGridExampleTest">
+    <configuration name="FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumintro1" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.FailedLoginTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FailedLoginTests.asUserLoginUsingValidLoginAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumintro1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.FailedLoginTests" />
-      <option name="METHOD_NAME" value="asUserLoginUsingValidLoginAndPassword" />
+      <option name="METHOD_NAME" value="asUserTryToLogInWithIncorrectLoginAndPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,7 +200,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveLoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveLoginTests.asUserLoginUsingValidLoginAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumintro1" />
       <extension name="coverage">
         <pattern>
@@ -102,6 +210,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.PositiveLoginTests" />
+      <option name="METHOD_NAME" value="asUserLoginUsingValidLoginAndPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumGridExampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumintro1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SeleniumGridExampleTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -126,18 +252,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartTest.asNotLoggedInUserIShallNotProceedToCheckout" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/home/maryna/Pulpit/Projekty/seleniumintro1/src/test/resources/all_test_suit.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumintro1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ShoppingCartTest" />
-      <option name="METHOD_NAME" value="asNotLoggedInUserIShallNotProceedToCheckout" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/all_test_suit.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -146,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PositiveLoginTests" />
-        <item itemvalue="TestNG.ShoppingCartTest.asNotLoggedInUserIShallNotProceedToCheckout" />
+        <item itemvalue="TestNG.SeleniumGridExampleTest" />
+        <item itemvalue="TestNG./home/maryna/Pulpit/Projekty/seleniumintro1/src/test/resources/all_test_suit.xml" />
+        <item itemvalue="TestNG.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword" />
+        <item itemvalue="TestNG.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword" />
         <item itemvalue="TestNG.ShoppingCartTest" />
-        <item itemvalue="TestNG.FailedLoginTests.asUserLoginUsingValidLoginAndPassword" />
-        <item itemvalue="TestNG.FailedLoginTests" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +288,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/maryna/Pulpit/Projekty/seleniumintro1/src/test/resources" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -179,5 +322,13 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
