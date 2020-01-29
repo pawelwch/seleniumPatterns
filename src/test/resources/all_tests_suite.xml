@@ -4,13 +4,13 @@
 
     <test name="Negative Login Tests">
         <classes>
-            <class name="tests.FailedLoginTests"/>
+            <class name="Tests.FailedLoginTests"/>
         </classes>
     </test>
 
     <test name="Positive Login Tests">
         <classes>
-            <class name="tests.PositiveLoginTests"/>
+            <class name="Tests.PositiveLoginTests"/>
         </classes>
     </test>
 
