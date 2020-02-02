@@ -1,4 +1,4 @@
-package PageObjects;
+package PageObjects.FooterPage;
 
 import Manager.DriverManager;
 import org.apache.logging.log4j.LogManager;
@@ -8,14 +8,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import Waits.WaitForElement;
 
-public class FooterPage {
+public class FooterPageMethods {
 
     private Logger logger = LogManager.getRootLogger();
 
     @FindBy(css = "#Banner img[src*='dog']")
     private WebElement bannerAfterLoginLogo;
 
-    public FooterPage() {
+    public FooterPageMethods() {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 

@@ -1,10 +1,10 @@
-package PageObjects;
+package PageObjects.CheckoutPage;
 
 import Manager.DriverManager;
 import org.openqa.selenium.support.PageFactory;
 
-public class CheckoutPage {
-    public CheckoutPage() {
+public class CheckoutPageMethods {
+    public CheckoutPageMethods() {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 }

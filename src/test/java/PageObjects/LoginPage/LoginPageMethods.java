@@ -1,6 +1,7 @@
-package PageObjects;
+package PageObjects.LoginPage;
 
 import Manager.DriverManager;
+import PageObjects.FooterPage.FooterPageMethods;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -8,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import Waits.WaitForElement;
 
-public class LoginPage {
+public class LoginPageMethods {
 
     private Logger logger = LogManager.getRootLogger();
 
@@ -24,28 +25,28 @@ public class LoginPage {
     @FindBy(css = "#Content ul[class='messages'] li")
     private WebElement messageLabel;
 
-    public LoginPage() {
+    public LoginPageMethods() {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
 
-    public LoginPage typeIntoUserNameField(String username) {
+    public LoginPageMethods typeIntoUserNameField(String username) {
         WaitForElement.waitUntilElementIsVisible(usernameField);
         usernameField.sendKeys(username);
         logger.info("Typed into User Name Field {}", username);
         return this;
     }
 
-    public LoginPage typeIntoPasswordField(String password) {
+    public LoginPageMethods typeIntoPasswordField(String password) {
         passwordField.clear();
         passwordField.sendKeys(password);
         logger.info("Typed into Password Field {}", password);
         return this;
     }
 
-    public FooterPage clickOnLoginButton() {
+    public FooterPageMethods clickOnLoginButton() {
         signOnButton.click();
         logger.info("Clicked on Login Button");
-        return new FooterPage();
+        return new FooterPageMethods();
     }
 
     public String getWarningMessage() {

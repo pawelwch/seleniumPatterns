@@ -2,7 +2,7 @@ package Tests;
 
 import Manager.DriverUtils;
 import org.testng.annotations.Test;
-import PageObjects.LoginPage;
+import PageObjects.LoginPage.LoginPageMethods;
 
 import static Navigation.ApplicationURLs.LOGIN_URL;
 import static org.testng.Assert.assertEquals;
@@ -15,9 +15,9 @@ public class PositiveLoginTests extends TestBase{
 
         DriverUtils.navigateToPage(LOGIN_URL);
 
-        LoginPage loginPage = new LoginPage();
+        LoginPageMethods loginPageMethods = new LoginPageMethods();
 
-        boolean isBannerAfterLoginDisplayed = loginPage
+        boolean isBannerAfterLoginDisplayed = loginPageMethods
                 .typeIntoUserNameField("j2ee")
                 .typeIntoPasswordField("j2ee")
                 .clickOnLoginButton()
