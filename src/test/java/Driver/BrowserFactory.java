@@ -37,7 +37,7 @@ public class BrowserFactory {
                     driver = new ChromeDriver();
                     break;
                 case FIREFOX:
-                    WebDriverManager.chromedriver().setup();
+                    WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     break;
 //                case IE:

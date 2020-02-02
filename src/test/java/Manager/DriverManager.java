@@ -15,9 +15,8 @@ public class DriverManager {
     public static WebDriver getWebDriver() {
 
         if (driver == null) {
-            driver = BrowserFactory.getBrowser(LocalWebDriverProperties.getLocalBrowser(), true);
+            driver = BrowserFactory.getBrowser(LocalWebDriverProperties.getLocalBrowser(), false);
         }
-
         return driver;
     }
 
