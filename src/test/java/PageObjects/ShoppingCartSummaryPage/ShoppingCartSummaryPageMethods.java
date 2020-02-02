@@ -12,7 +12,7 @@ import Waits.WaitForElement;
 
 public class ShoppingCartSummaryPageMethods extends TestBase {
 
-    public Logger logger;
+    private Logger logger = LogManager.getRootLogger();
 
     @FindBy(css = "a[href$='newOrderForm=']") private WebElement proceedToCheckoutButton;
 

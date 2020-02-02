@@ -1,0 +1,4 @@
+/*
+    Dodac do BeforeClass wszystkie mozliwe obiekty Pageów zeby nie wykonywac tego w kazdym tescie
+    Dodac Logger do BeforeClass zeby przed kazda klasa był inicjalizowany;
+     */
