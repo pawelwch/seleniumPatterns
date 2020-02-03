@@ -23,7 +23,7 @@ public class FishListPageMethods extends FishListPageSelectors {
         WaitForElement.waitUntilElementIsVisible(angelfishLinkId);
         angelfishLinkId.click();
         logger.info("Clicked on Angelfish Link");
-        return new AngelfishListPageMethods();
+        return new AngelfishListPageMethods(driver);
     }
 
 }
