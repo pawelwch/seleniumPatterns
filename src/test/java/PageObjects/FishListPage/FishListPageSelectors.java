@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class FishListPageSelectors {
+
     protected WebDriver driver;
 
     protected FishListPageSelectors(WebDriver driver){
@@ -14,4 +15,5 @@ public class FishListPageSelectors {
     }
 
     @FindBy(css = "tr:nth-child(2) a") protected  WebElement angelfishLinkId;
+
 }

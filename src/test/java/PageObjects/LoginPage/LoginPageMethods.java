@@ -5,30 +5,19 @@ import PageObjects.FooterPage.FooterPageMethods;
 import Tests.TestBase;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import Waits.WaitForElement;
 
-public class LoginPageMethods extends TestBase {
+public class LoginPageMethods extends LoginPageSelectors {
+
+    public LoginPageMethods(WebDriver driver){
+        super(driver);
+    }
 
     private Logger logger = LogManager.getRootLogger();
-
-    @FindBy(name = "username")
-    private WebElement usernameField;
-
-    @FindBy(name = "password")
-    private WebElement passwordField;
-
-    @FindBy(name = "signon")
-    private WebElement signOnButton;
-
-    @FindBy(css = "#Content ul[class='messages'] li")
-    private WebElement messageLabel;
-
-    public LoginPageMethods() {
-        PageFactory.initElements(DriverManager.getWebDriver(), this);
-    }
 
     public LoginPageMethods typeIntoUserNameField(String username) {
         WaitForElement.waitUntilElementIsVisible(usernameField);
@@ -47,7 +36,7 @@ public class LoginPageMethods extends TestBase {
     public FooterPageMethods clickOnLoginButton() {
         signOnButton.click();
         logger.info("Clicked on Login Button");
-        return new FooterPageMethods();
+        return new FooterPageMethods(driver);
     }
 
     public String getWarningMessage() {
