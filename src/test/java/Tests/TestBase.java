@@ -35,6 +35,9 @@ public class TestBase {
 
     @BeforeClass()
     public void beforeClass() {
+        PropertiesLoader propertiesLoader = new PropertiesLoader();
+        Properties propertiesFromFile = propertiesLoader.getPropertiesFromFile("configuration.properties");
+        ConfigurationProperties.setProperties(propertiesFromFile);
         checkoutPageMethods = new CheckoutPageMethods();
         fishListPageMethods = new FishListPageMethods(driver);
         footerPageMethods = new FooterPageMethods(driver);
@@ -42,9 +45,7 @@ public class TestBase {
         loginPageMethods = new LoginPageMethods(driver);
         shoppingCartSummaryPageMethods = new ShoppingCartSummaryPageMethods(driver);
         topMenuPageMethods = new TopMenuPageMethods(driver);
-        PropertiesLoader propertiesLoader = new PropertiesLoader();
-        Properties propertiesFromFile = propertiesLoader.getPropertiesFromFile("configuration.properties");
-        ConfigurationProperties.setProperties(propertiesFromFile);
+
     }
 
     @BeforeMethod
