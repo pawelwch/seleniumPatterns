@@ -1,6 +1,8 @@
 package Tests;
 
 import Manager.DriverUtils;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import PageObjects.LoginPage.LoginPageMethods;
 
@@ -14,8 +16,6 @@ public class PositiveLoginTests extends TestBase{
     public void asUserLoginUsingValidLoginAndPassword() {
 
         DriverUtils.navigateToPage(LOGIN_URL);
-
-       // LoginPageMethods loginPageMethods = new LoginPageMethods();
 
         boolean isBannerAfterLoginDisplayed = loginPageMethods
                 .typeIntoUserNameField("j2ee")
