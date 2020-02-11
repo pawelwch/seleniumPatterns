@@ -18,6 +18,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import java.util.Properties;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 import static Navigation.ApplicationURLs.APPLICATION_URL;
 
@@ -32,6 +34,7 @@ public class TestBase {
     public static LoginPageMethods loginPageMethods;
     public static ShoppingCartSummaryPageMethods shoppingCartSummaryPageMethods;
     public static TopMenuPageMethods topMenuPageMethods;
+
 
     @BeforeClass()
     public void beforeClass() {
