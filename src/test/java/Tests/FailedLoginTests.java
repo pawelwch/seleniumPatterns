@@ -18,7 +18,6 @@ public class FailedLoginTests extends TestBase{
 
         DriverUtils.navigateToPage(LOGIN_URL);
 
-        //LoginPageMethods loginPageMethods = new LoginPageMethods();
         loginPageMethods
                 .typeIntoUserNameField("User1")
                 .typeIntoPasswordField("Password1234")

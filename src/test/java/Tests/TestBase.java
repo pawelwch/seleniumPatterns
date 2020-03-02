@@ -36,7 +36,7 @@ public class TestBase {
     public static TopMenuPageMethods topMenuPageMethods;
 
 
-    @BeforeClass()
+    @BeforeClass(alwaysRun = true)
     public void beforeClass() {
         PropertiesLoader propertiesLoader = new PropertiesLoader();
         Properties propertiesFromFile = propertiesLoader.getPropertiesFromFile("configuration.properties");

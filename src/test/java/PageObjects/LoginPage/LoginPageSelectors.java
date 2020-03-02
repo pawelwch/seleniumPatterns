@@ -9,7 +9,7 @@ public class LoginPageSelectors {
 
    protected WebDriver driver;
 
-   protected LoginPageSelectors(WebDriver driver){
+   LoginPageSelectors(WebDriver driver){
        this.driver = driver;
        PageFactory.initElements(driver, this);
    }
