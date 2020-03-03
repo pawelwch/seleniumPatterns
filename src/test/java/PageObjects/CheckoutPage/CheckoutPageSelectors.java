@@ -1,5 +1,4 @@
 package PageObjects.CheckoutPage;
 
-public class CheckoutPageSelectors
-{
+public class CheckoutPageSelectors {
 }
