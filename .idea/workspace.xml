@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223098b3-157c-485d-b773-1192ac5d73b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/allure-results/174af007-31e8-4501-a161-57edd37b1c7c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/1d5f86d7-7914-4c7b-91d2-d7a2fcd20eaa-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/2e6d937d-c7ef-4829-beae-e127801f8f94-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/4057bcfc-fcb2-4d0c-bf70-0ac217d1b8ef-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/42f8f405-7423-4964-b67f-4e8ce447691a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/4372bdd4-5af8-48f3-a363-cbd1834883bf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/4497cb41-687b-4456-a530-c81236b73c3c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/4dd90261-ed86-4b8f-9104-6efd1fc16f26-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/51cadb1c-22e2-4e16-875f-88ef10d06d5e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/57051b49-b332-4aa1-b726-a78c91b2f383-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/5d04c1f1-ce84-48af-ad9d-c23f080c90d2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/71c7ed34-3254-4ea8-b954-5d71db80f31e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/784e7fb6-754a-4666-8a37-2df8e7a5fbb8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/7938a954-5b25-4f16-adec-4429df075c42-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/7ca27c65-fcdd-462f-8a2f-63b7cc4f9a52-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/80af37a9-5509-49da-8abb-aa817cd86651-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/9171f5cf-2c23-4739-a858-1710a8b24de9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/aa0495c0-2875-43a9-a9dd-dc9e8b7cc184-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/aad679cd-8ba4-40bf-8590-378b00022576-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/be2da00f-6e1e-42a5-8f6f-faaf7242ae31-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/c21e1c3f-89e4-4c62-a526-322d4c96348d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/c5eedd38-ca94-47a4-b835-5c572b57a299-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/e7727e16-d269-484d-8e06-718ea4661068-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/e8ce7a6c-6199-4549-b9ad-f0062887cfeb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/eddc374b-cac4-4472-bb35-7d697311b629-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/f35d46d2-336e-4f71-b595-bed68efe3ecc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/f78d1e6d-4a58-4ee8-b450-fadb74ced1ef-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/allure-results/faa558be-3dad-4780-a20b-99be72d69fc0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/AngelfishListPage/AngelfishListPageMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/AngelfishListPage/AngelfishListPageSelectors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/CheckoutPage/CheckoutPageMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/CheckoutPage/CheckoutPageSelectors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/FishListPage/FishListPageMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/FishListPage/FishListPageSelectors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/FooterPage/FooterPageMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/FooterPage/FooterPageSelectors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/LandingPage/LandingPageMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/LandingPage/LandingPageSelectors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/LoginPage/LoginPageMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/LoginPage/LoginPageSelectors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageSelectors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/TopMenuPage/TopMenuPageMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/TopMenuPage/TopMenuPageSelectors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AngelfishListPage/AngelfishListPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AngelfishListPage/AngelfishListPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AngelfishListPage/AngelfishListPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AngelfishListPage/AngelfishListPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FooterPage/FooterPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/FooterPage/FooterPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FooterPage/FooterPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/FooterPage/FooterPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage/LandingPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage/LandingPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage/LandingPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage/LandingPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage/LoginPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage/LoginPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage/LoginPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage/LoginPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/TopMenuPage/TopMenuPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/TopMenuPage/TopMenuPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/TopMenuPage/TopMenuPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/TopMenuPage/TopMenuPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/FailedLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/FailedLoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/PositiveLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/PositiveLoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/FailedLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/FailedLoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/PositiveLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/PositiveLoginTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword">
+  <component name="RunManager" selected="TestNG.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword">
     <configuration name="FailedLoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumintro1" />
       <extension name="coverage">
@@ -213,10 +153,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword" />
         <item itemvalue="TestNG.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword" />
         <item itemvalue="TestNG.ShoppingCartTest" />
         <item itemvalue="TestNG.SeleniumGridExampleTest.searchQueryInGoogle" />
-        <item itemvalue="TestNG.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword" />
         <item itemvalue="TestNG.FailedLoginTests" />
       </list>
     </recent_temporary>
@@ -322,29 +262,29 @@
     <state x="2663" y="349" key="FileChooserDialogImpl/0.79.1920.1002/1920.52.1920.1080/3840.0.2048.1152@1920.52.1920.1080" timestamp="1580317115202" />
     <state x="743" y="441" key="FileChooserDialogImpl/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1580762280144" />
     <state x="743" y="634" width="424" height="491" key="FileChooserDialogImpl/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579730624886" />
-    <state width="1874" height="363" key="GridCell.Tab.0.bottom" timestamp="1583269275775">
+    <state width="1874" height="363" key="GridCell.Tab.0.bottom" timestamp="1583271186416">
       <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state width="1874" height="508" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676583723" />
-    <state width="1874" height="363" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583269275775" />
+    <state width="1874" height="363" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583271186416" />
     <state width="1874" height="284" key="GridCell.Tab.0.bottom/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579731705364" />
-    <state width="1874" height="363" key="GridCell.Tab.0.center" timestamp="1583269275775">
+    <state width="1874" height="363" key="GridCell.Tab.0.center" timestamp="1583271186416">
       <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state width="1874" height="508" key="GridCell.Tab.0.center/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676583722" />
-    <state width="1874" height="363" key="GridCell.Tab.0.center/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583269275775" />
+    <state width="1874" height="363" key="GridCell.Tab.0.center/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583271186416" />
     <state width="1874" height="284" key="GridCell.Tab.0.center/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579731705364" />
-    <state width="1874" height="363" key="GridCell.Tab.0.left" timestamp="1583269275775">
+    <state width="1874" height="363" key="GridCell.Tab.0.left" timestamp="1583271186416">
       <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state width="1874" height="508" key="GridCell.Tab.0.left/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676583722" />
-    <state width="1874" height="363" key="GridCell.Tab.0.left/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583269275775" />
+    <state width="1874" height="363" key="GridCell.Tab.0.left/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583271186416" />
     <state width="1874" height="284" key="GridCell.Tab.0.left/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579731705364" />
-    <state width="1874" height="363" key="GridCell.Tab.0.right" timestamp="1583269275775">
+    <state width="1874" height="363" key="GridCell.Tab.0.right" timestamp="1583271186416">
       <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state width="1874" height="508" key="GridCell.Tab.0.right/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676583722" />
-    <state width="1874" height="363" key="GridCell.Tab.0.right/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583269275775" />
+    <state width="1874" height="363" key="GridCell.Tab.0.right/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583271186416" />
     <state width="1874" height="284" key="GridCell.Tab.0.right/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579731705364" />
     <state width="1874" height="351" key="GridCell.Tab.1.bottom" timestamp="1580764492553">
       <screen x="0" y="144" width="1920" height="1080" />

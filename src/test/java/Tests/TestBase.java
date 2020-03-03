@@ -28,11 +28,9 @@ public class TestBase {
 
     @BeforeClass(alwaysRun = true)
     public void beforeClass() {
-
         PropertiesLoader propertiesLoader = new PropertiesLoader();
         Properties propertiesFromFile = propertiesLoader.getPropertiesFromFile("configuration.properties");
         ConfigurationProperties.setProperties(propertiesFromFile);
-        driver = DriverManager.getWebDriver();
     }
 
     @BeforeMethod

@@ -12,9 +12,9 @@ public class FailedLoginTests extends TestBase{
 
     @Test
     public void asUserTryToLogInWithIncorrectLoginAndPassword() {
-        DriverUtils.navigateToPage(LOGIN_URL);
-
         LoginPageMethods loginPageMethods = new LoginPageMethods(driver);
+
+        DriverUtils.navigateToPage(LOGIN_URL);
 
         loginPageMethods
                 .typeIntoUserNameField("User1")
