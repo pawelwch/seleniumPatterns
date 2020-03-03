@@ -24,14 +24,15 @@ import static Navigation.ApplicationURLs.APPLICATION_URL;
 
 public class TestBase {
 
+    protected WebDriver driver;
 
     @BeforeClass(alwaysRun = true)
     public void beforeClass() {
+
         PropertiesLoader propertiesLoader = new PropertiesLoader();
         Properties propertiesFromFile = propertiesLoader.getPropertiesFromFile("configuration.properties");
         ConfigurationProperties.setProperties(propertiesFromFile);
-
-
+        driver = DriverManager.getWebDriver();
     }
 
     @BeforeMethod

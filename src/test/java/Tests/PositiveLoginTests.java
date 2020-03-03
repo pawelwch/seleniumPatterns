@@ -15,7 +15,7 @@ public class PositiveLoginTests extends TestBase{
 
         DriverUtils.navigateToPage(LOGIN_URL);
 
-        LoginPageMethods loginPageMethods = new LoginPageMethods();
+        LoginPageMethods loginPageMethods = new LoginPageMethods(driver);
 
         boolean isBannerAfterLoginDisplayed = loginPageMethods
                 .typeIntoUserNameField("j2ee")

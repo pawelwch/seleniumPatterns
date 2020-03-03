@@ -5,19 +5,18 @@ import PageObjects.CheckoutPage.CheckoutPageMethods;
 import Tests.TestBase;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import Waits.WaitForElement;
 
-public class ShoppingCartSummaryPageMethods extends TestBase {
+public class ShoppingCartSummaryPageMethods extends ShoppingCartSummaryPageSelectors {
 
     private Logger logger = LogManager.getRootLogger();
 
-    @FindBy(css = "a[href$='newOrderForm=']") private WebElement proceedToCheckoutButton;
-
-    public ShoppingCartSummaryPageMethods(){
-        PageFactory.initElements(DriverManager.getWebDriver(),this);
+    public ShoppingCartSummaryPageMethods(WebDriver driver){
+        super(driver);
     }
 
     public CheckoutPageMethods clickOnProceedToCheckout(){

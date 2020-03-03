@@ -4,20 +4,18 @@ import Manager.DriverManager;
 import Tests.TestBase;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import Waits.WaitForElement;
 
-public class FooterPageMethods extends TestBase {
+public class FooterPageMethods extends FooterPageSelectors {
 
     private Logger logger = LogManager.getRootLogger();
 
-    @FindBy(css = "#Banner img[src*='dog']")
-    private WebElement bannerAfterLoginLogo;
-
-    public FooterPageMethods() {
-        PageFactory.initElements(DriverManager.getWebDriver(), this);
+    public FooterPageMethods(WebDriver driver){
+        super(driver);
     }
 
     public boolean isBannerAfterLoginDisplayed(){
