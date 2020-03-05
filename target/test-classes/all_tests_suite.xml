@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="All Pet Store Tests">
+<suite name="All Pet Store tests">
 
-    <test name="Negative Login Tests">
+    <test name="Negative Login tests">
         <classes>
-            <class name="Tests.FailedLoginTests"/>
+            <class name="tests.FailedLoginTests"/>
         </classes>
     </test>
 
-    <test name="Positive Login Tests">
+    <test name="Positive Login tests">
         <classes>
-            <class name="Tests.PositiveLoginTests"/>
+            <class name="tests.PositiveLoginTests"/>
         </classes>
     </test>
 
