@@ -2,7 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223098b3-157c-485d-b773-1192ac5d73b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/AppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/AppProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/ConfigurationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/ConfigurationProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/LocalWebDriverProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/LocalWebDriverProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/PropertiesLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/PropertiesLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Enums/BrowserEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/enums/BrowserEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Manager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Manager/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Navigation/ApplicationURLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/navigation/ApplicationURLs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AngelfishListPage/AngelfishListPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/angelfish/list/page/AngelfishListPageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AngelfishListPage/AngelfishListPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/angelfish/list/page/AngelfishListPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/CheckoutPage/CheckoutPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/checkout/page/CheckoutPageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/CheckoutPage/CheckoutPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/checkout/page/CheckoutPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FishListPage/FishListPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/fish/list/page/FishListPageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FishListPage/FishListPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/fish/list/page/FishListPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FooterPage/FooterPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/footer/page/FooterPageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FooterPage/FooterPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/footer/page/FooterPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage/LandingPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/landing/page/LandingPageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage/LandingPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/landing/page/LandingPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage/LoginPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/login/page/LoginPageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage/LoginPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/login/page/LoginPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/shoppingcart/summary/page/ShoppingCartSummaryPageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/shoppingcart/summary/page/ShoppingCartSummaryPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/TopMenuPage/TopMenuPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/topmenu/page/TopMenuPageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/TopMenuPage/TopMenuPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/topmenu/page/TopMenuPageSelectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/FailedLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/PositiveLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/SeleniumGridExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SeleniumGridExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Waits/WaitForElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/waits/WaitForElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/AppProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/ConfigurationProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/LocalWebDriverProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/PropertiesLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Driver/BrowserFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Driver/BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Driver/BrowserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Enums/BrowserEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Manager/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Manager/DriverUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Navigation/ApplicationURLs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/AngelfishListPage/AngelfishListPageMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/AngelfishListPage/AngelfishListPageSelectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/CheckoutPage/CheckoutPageMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/CheckoutPage/CheckoutPageSelectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/FishListPage/FishListPageMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/FishListPage/FishListPageSelectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/FooterPage/FooterPageMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/FooterPage/FooterPageSelectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/LandingPage/LandingPageMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/LandingPage/LandingPageSelectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/LoginPage/LoginPageMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/LoginPage/LoginPageSelectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageSelectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/TopMenuPage/TopMenuPageMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/TopMenuPage/TopMenuPageSelectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/FailedLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/FailedLoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/PositiveLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/PositiveLoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/SeleniumGridExampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Waits/WaitForElement.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
