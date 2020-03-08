@@ -1,5 +1,6 @@
 package page.objects.footer.page;
 
+import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +14,7 @@ public class FooterPageMethods extends FooterPageSelectors {
         super(driver);
     }
 
+    @Step("Getting is dog banner is displayed")
     public boolean isBannerAfterLoginDisplayed() {
         WaitForElement.waitUntilElementIsVisible(bannerAfterLoginLogo);
         boolean isDisplayed = bannerAfterLoginLogo.isDisplayed();

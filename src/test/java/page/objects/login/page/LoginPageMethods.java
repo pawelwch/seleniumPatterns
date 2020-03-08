@@ -1,5 +1,6 @@
 package page.objects.login.page;
 
+import io.qameta.allure.Step;
 import manager.DriverManager;
 import page.objects.footer.page.FooterPageMethods;
 import org.apache.logging.log4j.LogManager;
@@ -15,6 +16,7 @@ public class LoginPageMethods extends LoginPageSelectors {
         super(driver);
     }
 
+    @Step("Type into User Name Field {username}")
     public LoginPageMethods typeIntoUserNameField(String username) {
         WaitForElement.waitUntilElementIsVisible(usernameField);
         usernameField.sendKeys(username);
@@ -22,6 +24,7 @@ public class LoginPageMethods extends LoginPageSelectors {
         return this;
     }
 
+    @Step("Type into Password Field {password}")
     public LoginPageMethods typeIntoPasswordField(String password) {
         passwordField.clear();
         passwordField.sendKeys(password);
@@ -29,12 +32,14 @@ public class LoginPageMethods extends LoginPageSelectors {
         return this;
     }
 
+    @Step("Click on Login Button")
     public FooterPageMethods clickOnLoginButton() {
         signOnButton.click();
         logger.info("Clicked on Login Button");
         return new FooterPageMethods(DriverManager.getWebDriver());
     }
 
+    @Step("Getting warning message from Login Page")
     public String getWarningMessage() {
         WaitForElement.waitUntilElementIsVisible(messageLabel);
         String warningText = messageLabel.getText();

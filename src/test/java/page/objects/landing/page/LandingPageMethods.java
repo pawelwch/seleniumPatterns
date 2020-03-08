@@ -1,5 +1,6 @@
 package page.objects.landing.page;
 
+import io.qameta.allure.Step;
 import manager.DriverManager;
 import page.objects.topmenu.page.TopMenuPageMethods;
 import org.apache.logging.log4j.LogManager;
@@ -15,6 +16,7 @@ public class LandingPageMethods extends LandingPageSelectors {
         super(driver);
     }
 
+    @Step("Click on Enter Store link")
     public TopMenuPageMethods clickOnEnterStoreLink() {
         WaitForElement.waitUntilElementIsClickable(enterStoreLink);
         enterStoreLink.click();

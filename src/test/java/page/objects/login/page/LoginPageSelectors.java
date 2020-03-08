@@ -1,6 +1,6 @@
 package page.objects.login.page;
 
-import tests.TestBase;
+import page.objects.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
