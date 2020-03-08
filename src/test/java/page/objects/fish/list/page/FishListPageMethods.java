@@ -12,7 +12,7 @@ public class FishListPageMethods extends FishListPageSelectors {
         super(driver);
     }
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(FishListPageMethods.class);
 
     public AngelfishListPageMethods clickOnAngelfishId(){
         WaitForElement.waitUntilElementIsVisible(angelfishLinkId);

@@ -8,7 +8,7 @@ import waits.WaitForElement;
 
 public class FooterPageMethods extends FooterPageSelectors {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(FooterPageMethods.class);
 
     public FooterPageMethods(WebDriver driver) {
         super(driver);

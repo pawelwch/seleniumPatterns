@@ -10,7 +10,7 @@ import waits.WaitForElement;
 
 public class TopMenuPageMethods extends TopMenuPageSelectors {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(TopMenuPageMethods.class);
 
     public TopMenuPageMethods(WebDriver driver){
         super(driver);

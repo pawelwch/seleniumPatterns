@@ -10,7 +10,7 @@ import waits.WaitForElement;
 
 public class LandingPageMethods extends LandingPageSelectors {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(LandingPageMethods.class);
 
     public LandingPageMethods(WebDriver driver){
         super(driver);
