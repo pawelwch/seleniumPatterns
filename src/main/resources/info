@@ -1,0 +1,3 @@
+* Aby przebudowac i wystartowac testy na nowo - "mvn clean test";
+* Aby wygenerowac raport Allure - "mvn allure:report"(Komenda ta powinna być wykonana w lokalizacji pliku pom.xml);
+
