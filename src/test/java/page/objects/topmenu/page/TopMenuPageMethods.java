@@ -1,5 +1,6 @@
 package page.objects.topmenu.page;
 
+import io.qameta.allure.Step;
 import manager.DriverManager;
 import page.objects.login.page.LoginPageMethods;
 import org.apache.logging.log4j.LogManager;
@@ -9,12 +10,13 @@ import waits.WaitForElement;
 
 public class TopMenuPageMethods extends TopMenuPageSelectors {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(TopMenuPageMethods.class);
 
     public TopMenuPageMethods(WebDriver driver){
         super(driver);
     }
 
+    @Step("Click on Sign In Link")
     public LoginPageMethods clickOnSignInLink(){
         WaitForElement.waitUntilElementIsClickable(signOnLink);
         signOnLink.click();

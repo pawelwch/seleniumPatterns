@@ -1,0 +1,3 @@
+* Aby przebudowac i wystartowac testy - "mvn clean test". Wystartuja wtedy wszystkie testy z pliku xml - all_test_suite;
+* Aby wygenerowac raport Allure - "mvn allure:report"(Komenda ta powinna być wykonana w lokalizacji pliku pom.xml);
+* Z jakiegos powodu Allure nie wczytuje zdjec z failowanych akcji na Chrome - na Firefox działa poprawnie;

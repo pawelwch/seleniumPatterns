@@ -9,7 +9,7 @@ import waits.WaitForElement;
 
 public class AngelfishListPageMethods extends AngelfishListPageSelectors {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(AngelfishListPageMethods.class);
 
     public AngelfishListPageMethods(WebDriver driver){
         super(driver);

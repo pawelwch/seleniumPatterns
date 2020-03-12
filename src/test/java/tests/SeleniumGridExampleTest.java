@@ -1,7 +1,9 @@
 package tests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
@@ -19,11 +21,10 @@ public class SeleniumGridExampleTest {
 
     @BeforeMethod
     public void beforeTest() throws MalformedURLException {
-        DesiredCapabilities capability = DesiredCapabilities.chrome();
-        //capability.setVersion("77.0.3865.90");
-        capability.setBrowserName("chrome");
-        //capability.setPlatform(Platform.LINUX);
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
+        ChromeOptions options = new ChromeOptions();
+        options.setCapability("platform", "LINUX");
+        options.setCapability("browserName", "chrome");
+        driver = new RemoteWebDriver(new URL("http://192.168.1.5:4444/wd/hub"), options);
     }
 
     @Test

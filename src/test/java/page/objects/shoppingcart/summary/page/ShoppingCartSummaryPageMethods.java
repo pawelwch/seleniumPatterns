@@ -8,7 +8,7 @@ import waits.WaitForElement;
 
 public class ShoppingCartSummaryPageMethods extends ShoppingCartSummaryPageSelectors {
 
-    private Logger logger = LogManager.getRootLogger();
+    private Logger logger = LogManager.getLogger(ShoppingCartSummaryPageMethods.class);
 
     public ShoppingCartSummaryPageMethods(WebDriver driver){
         super(driver);

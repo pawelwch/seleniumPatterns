@@ -3,70 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="223098b3-157c-485d-b773-1192ac5d73b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/AppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/AppProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/ConfigurationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/ConfigurationProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/LocalWebDriverProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/LocalWebDriverProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Configuration/PropertiesLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/PropertiesLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Driver/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/BrowserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Enums/BrowserEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/enums/BrowserEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Manager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Manager/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/DriverUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Navigation/ApplicationURLs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/navigation/ApplicationURLs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AngelfishListPage/AngelfishListPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/angelfish/list/page/AngelfishListPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AngelfishListPage/AngelfishListPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/angelfish/list/page/AngelfishListPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/CheckoutPage/CheckoutPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/checkout/page/CheckoutPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/CheckoutPage/CheckoutPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/checkout/page/CheckoutPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FishListPage/FishListPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/fish/list/page/FishListPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FishListPage/FishListPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/fish/list/page/FishListPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FooterPage/FooterPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/footer/page/FooterPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/FooterPage/FooterPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/footer/page/FooterPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage/LandingPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/landing/page/LandingPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LandingPage/LandingPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/landing/page/LandingPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage/LoginPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/login/page/LoginPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage/LoginPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/login/page/LoginPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/shoppingcart/summary/page/ShoppingCartSummaryPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/shoppingcart/summary/page/ShoppingCartSummaryPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/TopMenuPage/TopMenuPageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/topmenu/page/TopMenuPageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/TopMenuPage/TopMenuPageSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/objects/topmenu/page/TopMenuPageSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/FailedLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FailedLoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/PositiveLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/SeleniumGridExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SeleniumGridExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Waits/WaitForElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/waits/WaitForElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/AppProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/ConfigurationProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/LocalWebDriverProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/PropertiesLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Driver/BrowserFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Driver/BrowserFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Driver/BrowserType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Enums/BrowserEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Manager/DriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Manager/DriverUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Navigation/ApplicationURLs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/AngelfishListPage/AngelfishListPageMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/AngelfishListPage/AngelfishListPageSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/CheckoutPage/CheckoutPageMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/CheckoutPage/CheckoutPageSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/FishListPage/FishListPageMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/FishListPage/FishListPageSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/FooterPage/FooterPageMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/FooterPage/FooterPageSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/LandingPage/LandingPageMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/LandingPage/LandingPageSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/LoginPage/LoginPageMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/LoginPage/LoginPageSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/ShoppingCartSummaryPage/ShoppingCartSummaryPageSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/TopMenuPage/TopMenuPageMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/TopMenuPage/TopMenuPageSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/FailedLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/FailedLoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/PositiveLoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/PositiveLoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/SeleniumGridExampleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Waits/WaitForElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PositiveLoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="85614449674a5892dd553ab7b64c9d1aabec35a9" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../thinking-in-java-edycja-polska-wydanie-iv-bruce-eckel" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -124,12 +62,12 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PositiveLoginTests">
+  <component name="RunManager" selected="TestNG./home/maryna/Pulpit/Projekty/seleniumintro1/src/test/resources/all_tests_suite.xml">
     <configuration name="FailedLoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumintro1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="page.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,7 +84,7 @@
       <module name="seleniumintro1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="page.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,7 +102,7 @@
       <module name="seleniumintro1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="page.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,17 +115,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveLoginTests.asUserLoginUsingValidLoginAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumGridExampleTest.searchQueryInGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumintro1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="page.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.PositiveLoginTests" />
-      <option name="METHOD_NAME" value="asUserLoginUsingValidLoginAndPassword" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SeleniumGridExampleTest" />
+      <option name="METHOD_NAME" value="searchQueryInGoogle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -197,15 +135,8 @@
     </configuration>
     <configuration name="/home/maryna/Pulpit/Projekty/seleniumintro1/src/test/resources/all_tests_suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumintro1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ShoppingCartTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/all_tests_suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -214,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./home/maryna/Pulpit/Projekty/seleniumintro1/src/test/resources/all_tests_suite.xml" />
+        <item itemvalue="TestNG.SeleniumGridExampleTest.searchQueryInGoogle" />
         <item itemvalue="TestNG.PositiveLoginTests" />
         <item itemvalue="TestNG.FailedLoginTests" />
         <item itemvalue="TestNG.FailedLoginTests.asUserTryToLogInWithIncorrectLoginAndPassword" />
-        <item itemvalue="TestNG.PositiveLoginTests.asUserLoginUsingValidLoginAndPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -295,10 +227,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2531" y="159" width="687" height="745" key="#PositiveLoginTests.asUserLoginUsingValidLoginAndPassword/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1580854519643" />
-    <state x="667" y="489" width="576" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580676937839">
+    <state x="667" y="489" width="879" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583963424544">
       <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state x="667" y="489" width="576" height="397" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676937839" />
+    <state x="667" y="489" width="879" height="397" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583963424544" />
     <state x="801" y="457" width="308" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579649886822">
       <screen x="0" y="79" width="1920" height="972" />
     </state>
@@ -319,40 +252,40 @@
       <screen x="1920" y="52" width="1920" height="1080" />
     </state>
     <state x="2020" y="152" width="1720" height="880" key="DiffContextDialog/0.79.1920.1002/1920.52.1920.1080/3840.0.2048.1152@1920.52.1920.1080" timestamp="1580335099351" />
-    <state x="743" y="441" width="501" height="456" key="FileChooserDialogImpl" timestamp="1580762280144">
+    <state x="743" y="441" width="424" height="491" key="FileChooserDialogImpl" timestamp="1583619272179">
       <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state x="743" y="355" width="501" height="456" key="FileChooserDialogImpl/0.79.1920.1002/1920.52.1920.1080/3840.0.2048.1152@0.79.1920.1002" timestamp="1580243480938" />
     <state x="2663" y="349" key="FileChooserDialogImpl/0.79.1920.1002/1920.52.1920.1080/3840.0.2048.1152@1920.52.1920.1080" timestamp="1580317115202" />
-    <state x="743" y="441" key="FileChooserDialogImpl/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1580762280144" />
+    <state x="743" y="441" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583619272179" />
     <state x="743" y="634" width="424" height="491" key="FileChooserDialogImpl/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579730624886" />
-    <state width="1874" height="460" key="GridCell.Tab.0.bottom" timestamp="1583438550208">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="366" key="GridCell.Tab.0.bottom" timestamp="1584052890561">
+      <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state width="1874" height="508" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676583723" />
-    <state width="1874" height="363" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583271485311" />
-    <state width="1874" height="460" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1583438550208" />
+    <state width="1874" height="366" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1584052890561" />
+    <state width="1874" height="334" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1583619881435" />
     <state width="1874" height="284" key="GridCell.Tab.0.bottom/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579731705364" />
-    <state width="1874" height="460" key="GridCell.Tab.0.center" timestamp="1583438550208">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="366" key="GridCell.Tab.0.center" timestamp="1584052890561">
+      <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state width="1874" height="508" key="GridCell.Tab.0.center/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676583722" />
-    <state width="1874" height="363" key="GridCell.Tab.0.center/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583271485311" />
-    <state width="1874" height="460" key="GridCell.Tab.0.center/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1583438550208" />
+    <state width="1874" height="366" key="GridCell.Tab.0.center/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1584052890561" />
+    <state width="1874" height="334" key="GridCell.Tab.0.center/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1583619881435" />
     <state width="1874" height="284" key="GridCell.Tab.0.center/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579731705364" />
-    <state width="1874" height="460" key="GridCell.Tab.0.left" timestamp="1583438550207">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="366" key="GridCell.Tab.0.left" timestamp="1584052890561">
+      <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state width="1874" height="508" key="GridCell.Tab.0.left/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676583722" />
-    <state width="1874" height="363" key="GridCell.Tab.0.left/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583271485311" />
-    <state width="1874" height="460" key="GridCell.Tab.0.left/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1583438550207" />
+    <state width="1874" height="366" key="GridCell.Tab.0.left/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1584052890561" />
+    <state width="1874" height="334" key="GridCell.Tab.0.left/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1583619881435" />
     <state width="1874" height="284" key="GridCell.Tab.0.left/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579731705364" />
-    <state width="1874" height="460" key="GridCell.Tab.0.right" timestamp="1583438550208">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="366" key="GridCell.Tab.0.right" timestamp="1584052890561">
+      <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state width="1874" height="508" key="GridCell.Tab.0.right/1920.0.1920.1080/0.144.1920.1080/3840.0.2560.1440@0.144.1920.1080" timestamp="1580676583722" />
-    <state width="1874" height="363" key="GridCell.Tab.0.right/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583271485311" />
-    <state width="1874" height="460" key="GridCell.Tab.0.right/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1583438550208" />
+    <state width="1874" height="366" key="GridCell.Tab.0.right/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1584052890561" />
+    <state width="1874" height="334" key="GridCell.Tab.0.right/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1583619881435" />
     <state width="1874" height="284" key="GridCell.Tab.0.right/1920.288.1920.1080/0.336.1920.1080/3840.0.2560.1440@0.336.1920.1080" timestamp="1579731705364" />
     <state width="1874" height="252" key="GridCell.Tab.1.bottom" timestamp="1583436311009">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -382,12 +315,13 @@
       <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state x="665" y="402" width="580" height="571" key="MultipleFileMergeDialog/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583265437571" />
-    <state x="2369" y="186" width="1022" height="737" key="SettingsEditor" timestamp="1580332045692">
-      <screen x="1920" y="52" width="1920" height="1080" />
+    <state x="449" y="278" width="1024" height="852" key="SettingsEditor" timestamp="1583619295916">
+      <screen x="0" y="144" width="1920" height="1080" />
     </state>
     <state x="567" y="220" width="1012" height="737" key="SettingsEditor/0.79.1920.1002/1920.52.1920.1080/3840.0.2048.1152@0.79.1920.1002" timestamp="1580244524796" />
     <state x="2369" y="186" width="1022" height="737" key="SettingsEditor/0.79.1920.1002/1920.52.1920.1080/3840.0.2048.1152@1920.52.1920.1080" timestamp="1580332045692" />
     <state x="449" y="200" width="1022" height="737" key="SettingsEditor/0.79.1920.972/1920.52.1920.1080/3840.0.2048.1152@0.79.1920.972" timestamp="1579650059692" />
+    <state x="449" y="278" width="1024" height="852" key="SettingsEditor/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@0.144.1920.1080" timestamp="1583619295916" />
     <state x="2369" y="134" key="SettingsEditor/1920.0.1920.1080/0.144.1920.1080/3840.36.1600.900@1920.0.1920.1080" timestamp="1580938337881" />
     <state x="2475" y="328" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1580335722640">
       <screen x="1920" y="52" width="1920" height="1080" />

@@ -1,1 +1,0 @@
-{"uuid":"3f46334d-d868-4052-b12a-fb4e9fddfb17","name":"tests.PositiveLoginTests","children":["d4fff9e8-45ba-49c3-96c9-2e35cb813c9f"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1583435429812,"stop":1583435430225}],"afters":[],"links":[],"start":1583435429785,"stop":1583435434720}
